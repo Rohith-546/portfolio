@@ -4,7 +4,7 @@ $(document).ready(function () {
   });
 });
 const d = new Date();
-document.getElementByClassName("cc").innerHTML = "© Rohith Choudhary 2021-" +d.getFullYear();
+document.getElementsByClassName("cc")[0].innerHTML = "© Rohith Choudhary 2021-" + d.getFullYear()+".";
 function myFunction() {
  var nnb = document.getElementsByClassName("nav-text");
  var nf = document.getElementsByClassName("navbar");
